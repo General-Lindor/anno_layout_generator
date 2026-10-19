@@ -1,0 +1,200 @@
+{
+	"market": {
+		"orient": {
+			"width": 4,
+			"height": 4,
+			"area": [8,16,20,22,26,28,30,32,32,34,36,36,38,38,38,38,40,40,40,40,40,40,40,40,38,38,38,38,36,36,34,32,32,30,28,26,22,20,16,8],
+			"carts": 3
+		},
+		"okzident": {
+			"width": 4,
+			"height": 4,
+			"area": [8,16,20,22,26,28,30,32,32,34,36,36,38,38,38,38,40,40,40,40,40,40,40,40,38,38,38,38,36,36,34,32,32,30,28,26,22,20,16,8],
+			"carts": [1,2,3]
+		}
+	},
+	"noria": {
+		"small": {
+			"width": 3,
+			"height": 3,
+			"area": [11,15,17,19,21,23,25,25,27,27,27,27,27,27,27,27,27,27,27,25,25,23,21,19,17,15,11]
+		},
+		"large": {
+			"width": 6,
+			"height": 4,
+			"area": [10,16,22,24,28,30,32,34,36,38,40,40,42,44,44,44,46,46,46,48,48,48,48,48,48,48,48,48,48,46,46,46,44,44,44,42,40,40,38,36,34,32,30,28,24,22,16,10]
+		}
+	},
+	"farm": {
+		"most": {
+			"type": "okzident",
+			"width": 3,
+			"height": 3,
+			"area": [7,9,11,11,11,11,11,11,11,9,7],
+			"field_count": 4,
+			"field_width": 4,
+			"field_height": 3,
+			"field_min_tiles": 7
+		},
+		"hanf": {
+			"type": "okzident",
+			"width": 3,
+			"height": 3,
+			"area": [7,9,11,11,11,11,11,11,11,9,7],
+			"field_count": 4,
+			"field_width": 4,
+			"field_height": 3,
+			"field_min_tiles": 7
+		},
+		"weizen": {
+			"type": "okzident",
+			"width": 3,
+			"height": 3,
+			"area": [7,9,11,11,11,11,11,11,11,9,7],
+			"field_count": 3,
+			"field_width": 4,
+			"field_height": 4,
+			"field_min_tiles": 11
+		},
+		"kraeuter": {
+			"type": "okzident",
+			"width": 3,
+			"height": 3,
+			"area": [7,9,11,11,11,11,11,11,11,9,7],
+			"field_count": 8,
+			"field_width": 3,
+			"field_height": 2,
+			"field_min_tiles": 4
+		},
+		"schweine": {
+			"type": "okzident",
+			"width": 3,
+			"height": 3,
+			"area": [7,9,11,11,11,11,11,11,11,9,7],
+			"field_count": 4,
+			"field_width": 4,
+			"field_height": 4,
+			"field_min_tiles": 11
+		},
+
+
+
+		"datteln": {
+			"type": "orient",
+			"width": 3,
+			"height": 3,
+			"area": [7,9,11,11,11,11,11,11,11,9,7],
+			"field_count": 5,
+			"field_width": 4,
+			"field_height": 3,
+			"field_min_tiles": 7
+		},
+		"ziegenmilch": {
+			"type": "orient",
+			"width": 3,
+			"height": 3,
+			"area": [7,9,11,11,11,11,11,11,11,9,7],
+			"field_count": 3,
+			"field_width": 4,
+			"field_height": 4,
+			"field_min_tiles": 11
+		},
+		"gewuerze": {
+			"type": "orient",
+			"width": 3,
+			"height": 3,
+			"area": [7,9,11,11,11,11,11,11,11,9,7],
+			"field_count": 4,
+			"field_width": 4,
+			"field_height": 3,
+			"field_min_tiles": 7
+		},
+		"seide": {
+			"type": "orient",
+			"width": 3,
+			"height": 3,
+			"area": [7,9,11,11,11,11,11,11,11,9,7],
+			"field_count": 5,
+			"field_width": 4,
+			"field_height": 3,
+			"field_min_tiles": 7
+		},
+		"indigo": {
+			"type": "orient",
+			"width": 3,
+			"height": 3,
+			"area": [7,9,11,11,11,11,11,11,11,9,7],
+			"field_count": 5,
+			"field_width": 4,
+			"field_height": 3,
+			"field_min_tiles": 7
+		},
+		"kaffeebohne": {
+			"type": "orient",
+			"width": 3,
+			"height": 3,
+			"area": [7,9,11,11,11,11,11,11,11,9,7],
+			"field_count": 5,
+			"field_width": 4,
+			"field_height": 3,
+			"field_min_tiles": 7
+		}
+	},
+	"production": {
+		"webstube": {
+			"width": 3,
+			"height": 3,
+			"area": [9,13,15,17,19,21,21,23,23,23,23,23,23,23,23,23,21,21,19,17,15,13,9],
+			"verarbeitet": ["hanf"]
+		},
+		"mehl": {
+			"width": 3,
+			"height": 3,
+			"area": [11,15,19,21,23,25,27,27,29,29,31,31,31,31,31,31,31,31,31,31,31,29,29,27,27,25,23,21,19,15,11],
+			"verarbeitet": ["weizen"]
+		},
+		"brot": {
+			"width": 3,
+			"height": 3,
+			"area": [11,15,17,19,21,23,25,25,27,27,27,27,27,27,27,27,27,27,27,25,25,23,21,19,17,15,11],
+			"verarbeitet": ["mehl"]
+		},
+		"bier": {
+			"width": 3,
+			"height": 3,
+			"area": [11,15,17,19,21,23,25,25,27,27,27,27,27,27,27,27,27,27,27,25,25,23,21,19,17,15,11],
+			"verarbeitet": ["kraeuter", "weizen"]
+		},
+		"salz": {
+			"width": 3,
+			"height": 3,
+			"area": [9,13,15,17,19,21,21,23,23,23,23,23,23,23,23,23,21,21,19,17,15,13,9],
+			"verarbeitet": ["market"]
+		},
+		"gerberei": {
+			"width": 4,
+			"height": 3,
+			"area": [11,17,19,23,25,27,29,29,31,33,33,33,35,35,35,35,35,35,35,35,35,35,35,33,33,33,31,29,29,27,25,23,19,17,11],
+			"verarbeitet": ["salz", "schweine"]
+		},
+		"teppich": {
+			"width": 3,
+			"height": 3,
+			"area": [11,15,17,19,21,23,25,25,27,27,27,27,27,27,27,27,27,27,27,25,25,23,21,19,17,15,11],
+			"verarbeitet": ["seide", "indigo"]
+		},
+		"kaffee": {
+			"width": 3,
+			"height": 3,
+			"area": [9,13,15,17,19,21,21,23,23,23,23,23,23,23,23,23,21,21,19,17,15,13,9],
+			"verarbeitet": ["kaffeebohne"]
+		}
+	},
+	"chain": [{
+		"name": "leinen",
+		"ratio": {
+			"hanf": 2,
+			"webstube": 1
+		}
+	}]
+}
